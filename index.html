@@ -3,112 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Obfuscate and Run Your Script</title>
+    <title>Obfuscation Instructions</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
             color: white;
             background: linear-gradient(45deg, #000000, #434343);
             background-size: 400% 400%;
             animation: gradientAnimation 15s ease infinite;
         }
-        
         @keyframes gradientAnimation {
             0% { background-position: 0% 0%; }
             50% { background-position: 100% 100%; }
             100% { background-position: 0% 0%; }
         }
-        
         .container {
-            max-width: 800px;
-            margin: 20px auto;
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 8px;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        
         h1 {
-            font-size: 2em;
-            margin-top: 0;
+            text-align: center;
+            margin-bottom: 20px;
         }
-        
-        h2 {
-            font-size: 1.5em;
-            margin-bottom: 0;
-        }
-        
         p {
-            font-size: 1em;
-            line-height: 1.6;
+            margin-bottom: 20px;
         }
-        
-        .credits {
-            margin-top: 20px;
-            font-style: italic;
-        }
-        
-        .disclaimer {
-            margin-top: 20px;
-            border-top: 1px solid #444;
-            padding-top: 10px;
-        }
-
         .download-button {
             display: block;
+            width: 200px;
             margin: 20px auto;
-            padding: 10px 20px;
-            font-size: 1.2em;
-            color: #000;
-            background-color: #fff;
+            padding: 10px;
             text-align: center;
+            color: white;
+            background-color: #007bff;
             text-decoration: none;
             border-radius: 5px;
-            width: 200px;
-            cursor: pointer;
         }
-
         .download-button:hover {
-            background-color: #e0e0e0;
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>How to Obfuscate and Run Your Script</h1>
-        <h2>1. Obfuscate Your Script</h2>
-        <p>Drag and drop your script file onto the <code>8Stractor.py</code> script. This will create an obfuscated version of your script with the <code>.py8s</code> extension in the same directory as your original file. For instance, if your original script is named <code>example.py</code>, the obfuscated file will be <code>example.py8s</code>.</p>
-        
-        <h2>2. Distribute the Files</h2>
-        <p>Provide both the obfuscated <code>.py8s</code> file and the <code>Run 8s.py</code> script to your friends.</p>
-        
-        <h2>3. Running the Obfuscated Script</h2>
-        <p>Your friends should execute the <code>Run 8s.py</code> script on their system. They will be prompted to input the <strong>directory</strong> where the obfuscated <code>.py8s</code> file is located. This must be the full path to the directory, not the file itself. They will also need to type the <strong>file name</strong> of the obfuscated script (without the <code>.py8s</code> extension). The script will then handle running the obfuscated file using the provided directory and file name.</p>
-        
-        <h2>Example</h2>
-        <p><strong>Obfuscate:</strong><br>
-           Original script: <code>example.py</code><br>
-           Obfuscated output: <code>example.py8s</code></p>
-        <p><strong>Distribute:</strong><br>
-           Files to share: <code>example.py8s</code> and <code>Run 8s.py</code></p>
-        <p><strong>Run:</strong><br>
-           <strong>Directory:</strong> <code>C:\\Users\\username\\Desktop\\</code><br>
-           <strong>File Name:</strong> <code>example</code></p>
-        
-        <div class="credits">
-            <h2>Credits</h2>
-            <p><strong>Developed By:</strong> Eightorow</p>
-        </div>
-        
-        <div class="disclaimer">
-            <h2>Disclaimer</h2>
-            <p><strong>Usage Warning:</strong> This tool is intended for legitimate purposes only. Use responsibly and do not engage in malicious activities.</p>
-            <p><strong>No Responsibility for Damages:</strong> Eightorow is not responsible for any damages, data loss, or other issues resulting from the use of this tool. Ensure that you have appropriate permissions and use the tool in accordance with applicable laws and regulations.</p>
-            <p><strong>No Warranty:</strong> The software is provided "as is" without warranty of any kind, either expressed or implied. Use it at your own risk.</p>
-        </div>
-
-        <a href="8scator.zip" class="download-button" download>Download 8scator</a>
+        <p>To ensure your script is obfuscated and can be run by others, follow these steps:</p>
+        <ol>
+            <li><strong>Obfuscate Your Script</strong>:<br>
+                Drag and drop your script file onto the <code>8Stractor.py</code> script.<br>
+                This will generate an obfuscated file with the <code>.py8s</code> extension in the same directory as your original script. For example, if your script is named <code>example.py</code>, the obfuscated file will be <code>example.py8s</code>.
+            </li>
+            <li><strong>Distribute the Files</strong>:<br>
+                Send the newly created <code>.py8s</code> file and the <code>Run 8s.py</code> script to your friends.
+            </li>
+            <li><strong>Running the Obfuscated Script</strong>:<br>
+                Your friends should run the <code>Run 8s.py</code> script.<br>
+                They will be prompted to enter the <strong>directory</strong> where the obfuscated <code>.py8s</code> file is located. <strong>Note:</strong> This should be the directory path, not the file name.<br>
+                After specifying the directory, they will need to type the <strong>file name</strong> of the obfuscated file (without the <code>.py8s</code> extension).<br>
+                The script will then run the obfuscated file.
+            </li>
+        </ol>
+        <p><strong>Example:</strong></p>
+        <ul>
+            <li><strong>Obfuscate:</strong><br>
+                Original script: <code>example.py</code><br>
+                Output file: <code>example.py8s</code></li>
+            <li><strong>Distribute:</strong><br>
+                Files to send: <code>example.py8s</code> and <code>Run 8s.py</code></li>
+            <li><strong>Run:</strong><br>
+                <strong>Directory:</strong> <code>C:\\Users\\username\\Desktop\\</code><br>
+                <strong>File Name:</strong> <code>example</code></li>
+        </ul>
+        <h2>Credits</h2>
+        <p><strong>Coded By:</strong> Eightorow</p>
+        <h2>Disclaimer</h2>
+        <p>Do not use for malicious purposes. Eightorow is not responsible for any damages caused by misuse.</p>
+        <a href="8scator.zip" class="download-button" download>Download 8scator.zip</a>
     </div>
 </body>
 </html>
